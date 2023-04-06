@@ -101,7 +101,7 @@ const authHeader = {
 };
 
 // Get templates data using api call
-const { pending, data: templates } = useLazyFetch(
+const { pending, data: templates } = useAuthLazyFetch(
   `${props.url}?offset=0&limit=100&sort_column=id&sort_direction=desc`,
   { method: "GET", headers: authHeader }
 );
@@ -138,7 +138,7 @@ const save = async (template: any) => {
   });
 
   // Post call hits when click on save button
-  await useLazyFetch(props.url, {
+  await useAuthLazyFetch(props.url, {
     method: "POST",
     headers: authHeader,
     body: postData.value,
@@ -162,7 +162,7 @@ const edit = async (template: any) => {
   });
 
   // Put call hits when click on save button
-  const { data: response } = await useLazyFetch(`${props.url}${template.uid}`, {
+  const { data: response } = await useAuthLazyFetch(`${props.url}${template.uid}`, {
     method: "PUT",
     headers: authHeader,
     body: postData.value,
@@ -182,7 +182,7 @@ const edit = async (template: any) => {
 
 // Delete template based on uid
 const deleteItem = (templateUid: string) => {
-  const { data: response } = useLazyFetch(`${props.url}${templateUid}`, {
+  const { data: response } = useAuthLazyFetch(`${props.url}${templateUid}`, {
     method: "DELETE",
     headers: authHeader,
   });
