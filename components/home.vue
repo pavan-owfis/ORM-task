@@ -143,7 +143,7 @@
     </div>
     <div>
       <inputData @formData="formData" v-if="isAdd" />
-      <editData v-if="isEdit" :editDetails="editDetails" />
+      <edit v-if="isEdit" :editDetails="editDetails" />
     </div>
   </div>
 </template>
