@@ -9,3 +9,4 @@ inputData -- Add
 timelineData -- list
 edit -- Edit
 
+Note: Please ignore exam folder. Rest of the files are related to this task
