@@ -1,43 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Timeline-task
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+In this task by the time of submission post, get and delete functionalities are working and edit is still pending.
+status of edit functionality -- In progress.
 
-## Setup
+File structure:
+home is considered as Main
+inputData -- Add
+timelineData -- list
+edit -- Edit
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# ORM-task
+Note: Please ignore the exam folder,it is not related to the task. Above mentioned files only for this task
