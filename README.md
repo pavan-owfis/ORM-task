@@ -1,4 +1,4 @@
-# Timeline-task
+# Tailwind-task
 
-In this task by the time of submission post, get and delete functionalities are working and edit is still pending.
-status of edit functionality -- In progress.
+As per the webpage reference provided, in that page layout 1,3,5 and footer was completed.
+Rest of the layouts are not finished.
