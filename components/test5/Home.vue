@@ -20,7 +20,7 @@
             <MenuButton
               class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-500 hover:text-gray-700"
             >
-              Options
+              Features
               <ChevronDownIcon
                 class="-mr-1 h-5 w-5 text-gray-400"
                 aria-hidden="true"
@@ -139,7 +139,7 @@
             <MenuButton
               class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-500 hover:text-gray-700"
             >
-              Options
+              Resources
               <ChevronDownIcon
                 class="-mr-1 h-5 w-5 text-gray-400"
                 aria-hidden="true"
